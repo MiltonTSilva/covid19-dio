@@ -8,4 +8,6 @@ export const ContainerStyled = styled.div`
 
 export const ContainerDev = styled.h2`
   color: #ffffff;
+  background: #000000;
+  text-align: center;
 `
