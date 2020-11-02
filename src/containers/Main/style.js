@@ -5,3 +5,7 @@ export const ContainerStyled = styled.div`
   margin: 0 auto;
   max-width: 1024px;
 `
+
+export const ContainerDev = styled.h2`
+  color: #ffffff;
+`

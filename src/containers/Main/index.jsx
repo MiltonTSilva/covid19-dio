@@ -2,7 +2,7 @@ import React, { memo, useState, useCallback, useEffect } from 'react'
 import Api from '../../api'
 import Board from './components/Board'
 import Panel from './components/Panel'
-import { ContainerStyled } from './style'
+import { ContainerStyled, ContainerDev} from './style'
 
 function Main() {
   const [data, setData] = useState({})
@@ -35,6 +35,8 @@ function Main() {
         />
       </div>
       <Board data={data} />
+
+      <ContainerDev>Desenvolvido por Milton Tomé da Silva em 10/2020</ContainerDev>
       
     </ContainerStyled>
   )
